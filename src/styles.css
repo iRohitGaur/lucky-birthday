@@ -1,0 +1,114 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+:root {
+  --background-light: #fbfffe;
+  --background: #faa916;
+  --primary-light: #6d676e;
+  --primary: #1b1b1e;
+  --primary-dark: #96031a;
+}
+
+html,
+body {
+  margin: 0px;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--background);
+  height: 100vh;
+}
+
+.app__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-dark);
+  padding-top: 2rem;
+}
+
+.app__subtitle {
+  font-size: 1.2rem;
+  color: var(--primary);
+  padding: 1rem;
+}
+
+.lucky__inputname {
+  width: 90%;
+  max-width: 300px;
+  height: 40px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10px 40px;
+  border: none !important;
+  border-radius: 12px;
+  text-align: center;
+  background: var(--background);
+}
+
+.lucky__input {
+  box-shadow: inset 0px 0px 6px #6a6a6a;
+}
+
+.react-date-picker {
+  max-width: 376px;
+  height: 60px;
+}
+
+.react-date-picker__wrapper {
+  border: none !important;
+}
+
+.lucky__submit {
+  background: var(--background-light);
+  height: 60px;
+  margin-top: 2rem;
+  width: 90%;
+  max-width: 380px;
+  box-shadow: 0px 0px 6px #6a6a6a;
+}
+
+.app__resultlabel {
+  color: var(--background-light);
+  margin: auto;
+  padding-top: 2rem;
+  max-width: 90%;
+  font-size: 1.5rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.privacy {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  padding-left: 2rem;
+  text-align: left;
+}
+
+.privacy-hover {
+  display: none;
+  color: var(--primary);
+}
+
+.privacy:hover .privacy-hover {
+  display: block;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
